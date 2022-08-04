@@ -90,7 +90,7 @@ def handle_audio(update, context):
         audio_file = update.message.audio.file_id
         audio = update.message.audio
 
-    if audio.file_size > 10 * 1024 * 1024 or audio.duration > 60:
+    if audio.file_size > 40 * 1024 * 1024 or audio.duration > 360:
         update.message.reply_text("Audio is too long or too big. Please send a smaller audio.")
         return
 
