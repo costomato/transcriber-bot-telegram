@@ -1,0 +1,4 @@
+azure-cognitiveservices-speech==1.23.0
+ftransc==7.0.3
+python-dotenv==0.20.0
+python-telegram-bot==13.13
