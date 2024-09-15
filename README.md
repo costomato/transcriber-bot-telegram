@@ -1,4 +1,4 @@
-# Telegram dictionary bot
+# Telegram-based transcriber bot
 
 ## About
 This is a telegram bot that transcribes audios for you.
